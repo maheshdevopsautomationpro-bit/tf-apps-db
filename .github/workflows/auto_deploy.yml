@@ -1,0 +1,17 @@
+name: 'Terraform Auto Deployment'
+'on':
+  pull_request:
+    paths-ignore:
+    - '.github/workflows/*'
+    branches:
+    - main
+    - 'feature/**'
+
+
+jobs:
+  deploy:
+    uses: maheshdevopsautomationpro-bit/github-actions-cicd/.github/workflows/auto_deploy_reusable.yml@main
+    secrets:
+      GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+
+     
