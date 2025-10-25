@@ -34,7 +34,7 @@
 |------|-------------|------|---------|:--------:|
 | <a name="input_environment"></a> [environment](#input\_environment) | n/a | `map(any)` | n/a | yes |
 | <a name="input_region_name"></a> [region\_name](#input\_region\_name) | n/a | `string` | `"us-central1"` | no |
-| <a name="input_secrets_project_id"></a> [secrets\_project\_id](#input\_secrets\_project\_id) | n/a | `string` | `"ecomm-secrets-mgmt"` | no |
+| <a name="input_secrets_project_id"></a> [secrets\_project\_id](#input\_secrets\_project\_id) | n/a | `string` | `"apps-secrets-mgmt"` | no |
 
 ## Outputs
 
