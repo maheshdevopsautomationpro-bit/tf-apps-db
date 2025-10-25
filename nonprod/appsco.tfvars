@@ -27,7 +27,7 @@ environment = {
 
       authorized_networks = [
         {
-          name  = "Home Office Public Subnet"
+          name  = "Public Subnet"
           value = ""
         }
       ]
