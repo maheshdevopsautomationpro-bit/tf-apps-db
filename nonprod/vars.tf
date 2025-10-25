@@ -14,16 +14,6 @@ variable "region_name" {
   default = "us-central1"
 }
 
-# variable "user_password" {
-#   type        = string
-#   description = "The password for the Cloud SQL instance"
-# }
-
-# variable "root_password" {
-#   type        = string
-#   description = "The password for the Cloud SQL instance"
-# }
-
 variable "secrets_project_id" {
   type    = string
   default = "apps-secrets-mgmt"
